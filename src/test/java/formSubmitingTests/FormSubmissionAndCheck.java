@@ -48,8 +48,6 @@ public class FormSubmissionAndCheck {
         $("#firstName").setValue(firstName);
         $("#lastName").setValue(lastName);
         $("#userEmail").setValue(eMail);
-
-
         $("[name=gender][value="+gender+"]").parent().click();
         $("#userNumber").setValue(mobile);
         $("#dateOfBirthInput").click();

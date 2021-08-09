@@ -9,7 +9,6 @@ repositories {
 dependencies {
     testImplementation (
             "com.codeborne:selenide:5.20.3",
-            "org.assertj:assertj-core:3.19.0",
             "org.junit.jupiter:junit-jupiter-api:5.7.1")
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.7.1"
 }
